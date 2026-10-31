@@ -1,6 +1,6 @@
 // Offline cache for the web/PWA build. Page loads are network-first (so new deploys show up),
 // everything else same-origin is cache-first (Vite asset names are content-hashed).
-const CACHE = 'gut-cosmos-v2';
+const CACHE = 'gut-cosmos-v3';
 
 // Precache the page plus the hashed JS/CSS it references, so the first visit already works offline.
 self.addEventListener('install', (e) => {
